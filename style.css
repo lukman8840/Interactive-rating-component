@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: overpass, sans-serif;
+    background-color:hsl(216, 12%, 8%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+button{
+    font-family: inherit;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.main, .thank-you{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+}
+.icon-star{
+    width: 50px;
+    padding: 14px;
+    background-color:hsl(213, 22%, 20%);
+    border-radius: 50%;
+}
+.main h3{
+    color: #fff;
+    margin: 32px 0 16px;
+    text-align: justify;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    
+    justify-content: space-around;  
+}
+.main p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 16px;
+    padding: 24px;
+    line-height: 20px;
+    margin-top: 0px;
+    text-align: justify;
+}
+.main ul{
+    justify-content: space-between;
+    display: flex;
+    gap: 30px;
+}
+.main ul li button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: hsl(213, 20%, 22%);
+}
+.main ul li button:hover{
+    background-color: hsl(25, 100%, 37%);
+}
+.submit-btn{
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 22px 0 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #aca4a4;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+}
+.submit-btn:hover{
+    color:(25, 97%, 53%);
+    background-color: #fff;
+}
+.thank-you .selected{
+   background-color: hsl(213, 20%, 22%);
+   font-size: 17px;
+   padding: 10px;
+   width: fit-content;
+   margin: 20px;
+   border-radius: 30px;
+   color:  hsl(25, 97%, 53%);;
+}
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.thank-you h2{
+    text-align: center;
+    color: #fff;
+    margin: 2px  6px;
+    padding: 0px
+}
+.thank-you p{
+    color: hsl(217, 12%, 63%);
+}
+.img{
+    font-size: 24px;
+    padding: 24px;
+    
+}
+ .appreciate{
+    font-size:  18px;
+ }
+ .thank-you{
+    /* display: none; */
+ }
+ .hidden{
+    display: none;
+ }
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 21px; 
+    text-align: center; 
+    margin: 20px;
+    color: #fff;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
